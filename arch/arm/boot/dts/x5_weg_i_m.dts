@@ -675,7 +675,7 @@
 
         flashlight_pins_hwen_high: hwen_high {
             pins_cmd_dat {
-                        pins = <PINMUX_GPIO8__FUNC_GPIO8>;
+                        pins = <PINMUX_GPIO10__FUNC_GPIO10>;
                         slew-rate = <1>;
                         output-high;
                 };
@@ -683,7 +683,7 @@
 
         flashlight_pins_hwen_low: hwen_low {
             pins_cmd_dat {
-                        pins = <PINMUX_GPIO8__FUNC_GPIO8>;
+                        pins = <PINMUX_GPIO10__FUNC_GPIO10>;
                         slew-rate = <1>;
                         output-low;
                 };
@@ -709,7 +709,7 @@
 	gpslna_pins_init: gpslna@0 {
 
 		pins_cmd_dat {
-			pins = <PINMUX_GPIO3__FUNC_GPIO3>;
+			pins = <PINMUX_GPIO65__FUNC_GPIO65>;
 			slew-rate = <0>;
 			bias-disable;
 			output-low;
@@ -719,7 +719,7 @@
 	gpslna_pins_oh: gpslna@1 {
 
 		pins_cmd_dat {
-			pins = <PINMUX_GPIO3__FUNC_GPIO3>;
+			pins = <PINMUX_GPIO65__FUNC_GPIO65>;
 			slew-rate = <1>;
 			output-high;
 		};
@@ -728,7 +728,7 @@
 	gpslna_pins_ol: gpslna@2 {
 
 		pins_cmd_dat {
-			pins = <PINMUX_GPIO3__FUNC_GPIO3>;
+			pins = <PINMUX_GPIO65__FUNC_GPIO65>;
 			slew-rate = <1>;
 			output-low;
 		};
